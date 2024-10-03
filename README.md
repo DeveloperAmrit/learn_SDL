@@ -49,13 +49,13 @@ Open Visual Studio and create a new blank C++ project.
 4. **Input Settings (Debug Configuration):**
    - From the top-left configuration dropdown menu, select **Debug**.
    - Go to **Linker > Input**.
-   - Add `"SDL2maind.lib"` to **Additional Dependencies**.
+   - Add `SDL2maind.lib` to **Additional Dependencies**.
    - Click **Apply**.
 
 5. **Input Settings (Release Configuration):**
    - From the top-left configuration dropdown menu, select **Release**.
    - Go to **Linker > Input**.
-   - Add `"SDL2main.lib"` to **Additional Dependencies**.
+   - Add `SDL2main.lib` to **Additional Dependencies**.
    - Click **Apply**.
    - Click **OK** to save and close the properties.
 
