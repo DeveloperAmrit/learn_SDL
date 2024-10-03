@@ -1,0 +1,9 @@
+Right click on project name folder
+Select All configurations
+ > Check whether terminal is console or not
+
+Select Debug configuration
+ >Add SDL2maind.lib in input
+
+Select release configuration
+ >Add SDL2main.lib in input
