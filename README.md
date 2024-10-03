@@ -37,6 +37,7 @@ Open Visual Studio and create a new blank C++ project.
 1. **Open Project Properties:**
    - Right-click on the project folder name in the Solution Explorer.
    - Select **Properties** (at the bottom).
+   - NOTE THAT YOU NEED TO DO THIS STEP IN EACH AND EVERY PROJECT
 
 2. **Select All Configurations:**
    - From the top-left dropdown menu, select **All Configurations**.
