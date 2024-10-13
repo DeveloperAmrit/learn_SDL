@@ -26,8 +26,7 @@ Make sure the following workloads are installed through the Visual Studio Instal
 ### 2.1 Download SDL2 Libraries
 Download the SDL2 libraries and extract them directly to your `C:/` drive.  
 **Note:** Make sure the path is exactly `C:/SDL2_libraries_` to avoid any issues.  
-[Download SDL2 Libraries](#)  
-(*Update this link with the actual file download link*)
+[Download SDL2 Libraries](https://github.com/DeveloperAmrit/learn_SDL/releases/download/v1.0/SDL2_libraries_.zip)  
 
 ### 2.2 Create a New Visual Studio C++ Project
 1. Open Visual Studio.
@@ -43,7 +42,7 @@ Download the SDL2 libraries and extract them directly to your `C:/` drive.
 ## Step 3: Connect SDL to Your Project
 
 ### 3.1 Configure Project Properties
-1. Right-click your project in **Solution Explorer** and select **Project Properties**.  
+1. Click **project** in Topmost toolbar and select **Project Properties**.  
    **Note:** Ensure the option is **projectname Properties** and not just **Properties**. This only appears after creating `main.c`.
 
 ### 3.2 Add Include Directories
@@ -70,6 +69,19 @@ Download the SDL2 libraries and extract them directly to your `C:/` drive.
    - `SDL2.lib; SDL2main.lib; SDL2_image.lib; SDL2_mixer.lib;`
 3. Click **OK** and **OK** again.
 
+
+### 3.5 Copying dll files
+1. Open the toCopy in SDL_libraries_ folder `C:/SDL_libraries/toCopy`
+2. Copy all dll files from the toCopy folder
+3. Open your project in visual studio
+4. Right click on project name file (bold and 2nd from top)
+5. Click on **open folder in file explorer**
+6. Paste all dll files here 
 ---
+
+### Step 4: Build and run your project
+1. Write code in main.c
+2. Click on **build** button in topmost toolbar > **build solution**
+3. Now, Click on **run without debugging**
 
 You're now set up to work with SDL in Visual Studio!
