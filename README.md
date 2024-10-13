@@ -83,5 +83,8 @@ Download the SDL2 libraries and extract them directly to your `C:/` drive.
 1. Write code in main.c
 2. Click on **build** button in topmost toolbar > **build solution**
 3. Now, Click on **run without debugging**
+---
 
-You're now set up to work with SDL in Visual Studio!
+You have to do step 3 each and every time you create a sdl project in visual studio.
+
+You are all set 🎉
