@@ -53,6 +53,7 @@ Download the SDL2 libraries and extract them directly to your `C:/` drive.
    - `C:\SDL2_libraries_\SDL2-devel-2.30.8-VC\SDL2-2.30.8\include`
    - `C:\SDL2_libraries_\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\include`
    - `C:\SDL2_libraries_\SDL2_mixer-devel-2.8.0-VC\SDL2_mixer-2.8.0\include`
+   - `C:\SDL2_libraries_\SDL2_ttf-devel-2.22.0-VC\SDL2_ttf-2.22.0\include`
 3. Click **OK** and then **Apply**.
 
 ### 3.3 Add Library Directories
@@ -61,12 +62,13 @@ Download the SDL2 libraries and extract them directly to your `C:/` drive.
    - `C:\SDL2_libraries_\SDL2-devel-2.30.8-VC\SDL2-2.30.8\lib\x64`
    - `C:\SDL2_libraries_\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\lib\x64`
    - `C:\SDL2_libraries_\SDL2_mixer-devel-2.8.0-VC\SDL2_mixer-2.8.0\lib\x64`
+   - `C:\SDL2_libraries_\SDL2_ttf-devel-2.22.0-VC\SDL2_ttf-2.22.0\lib\x64`
 3. Click **OK** and then **Apply**.
 
 ### 3.4 Link SDL Libraries
 1. Go to **Linker > Input** in **Project Properties**.
 2. Add the following to **Additional Dependencies**:
-   - `SDL2.lib; SDL2main.lib; SDL2_image.lib; SDL2_mixer.lib;`
+   - `SDL2.lib; SDL2main.lib; SDL2_image.lib; SDL2_mixer.lib; SDL2_ttf.lib`
 3. Click **OK** and **OK** again.
 
 
